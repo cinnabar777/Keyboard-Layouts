@@ -4,25 +4,36 @@ Keyboard Layouts for Android Keyboards like FUTO Keyboard, HeliBoard, and Floris
 I worked with copilot to analyze and modify a simple Keyboard layout idea I had, place all vowels on their own row creating a 7x5 layout:
 
 7x5 R1:
+
 ROW 1: [SHIFT] A E I O U [DELETE]
+
 ROW 2: Q W R T Y P L
+
 ROW 3: S D F G H J K
+
 ROW 4: Z X C V B N M
+
 ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+
 
 7x5 R2:
-ROW 1: Q W R T Y P L
-ROW 2: [SHIFT] A E I O U [DELETE]
-ROW 3: S D F G H J K
-ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
 
-7x5 R3:
 ROW 1: Q W R T Y P L
-ROW 2: S D F G H J K
-ROW 3: [SHIFT] A E I O U [DELETE]
+
+ROW 2: [SHIFT] A E I O U [DELETE]
+
+ROW 3: S D F G H J K
+
 ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
+
+7x5 R3:  
+ROW 1: Q W R T Y P L  
+ROW 2: S D F G H J K  
+ROW 3: [SHIFT] A E I O U [DELETE]  
+ROW 4: Z X C V B N M  
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
 7x5 R4:
 ROW 1: Q W R T Y P L
