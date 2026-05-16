@@ -1103,20 +1103,3 @@ ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
 
 
 
-Vowel vortex
-
-Row 1:  Q  W  P  L  [Del]  
-Row 2:  R  T  Y  S  D  
-Row 3:  F  G  H  J  K  
-Row 4: [Sh] I  E  A  O  U  <-- Vowel Row (Row 4 is deep for clarity)  
-Row 5:  X  C  V  B  N  
-Row 6:  Z  M  [.] [,] [Space]  
-
-|**Metric**|**Row 3 Original (7-col)**|**ClearFlow (5x5)**|**Vowel-Vortex (5x5)**|
-|---|---|---|---|
-|**Avg. Path Length**|7.12 units|5.45 units|**5.12 units**|
-|**Projected Speed**|59.2 WPM|74.1 WPM|**78.9 WPM**|
-|**Clarity Score**|Extreme|Moderate/Low|**High**|
-|**WPM vs. QWERTY**|+48%|+85%|**+97% (Almost Double)**|
-
-
