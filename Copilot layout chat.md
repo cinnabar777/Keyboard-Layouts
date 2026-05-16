@@ -1,4 +1,3 @@
-
 ## **COMPREHENSIVE RANKING (All Priorities)**
 
 ### **Priority 1: AMBIGUITY REDUCTION**
@@ -45,33 +44,33 @@
 
 # CUSTOM LAYOUTS 7X5
 
-7x5 R1:
-ROW 1: [SHIFT] A E I O U [DELETE]
-ROW 2: Q W R T Y P L
-ROW 3: S D F G H J K
-ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+7x5 R1:  
+ROW 1: [SHIFT] A E I O U [DELETE]  
+ROW 2: Q W R T Y P L  
+ROW 3: S D F G H J K  
+ROW 4: Z X C V B N M  
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
-7x5 R2:
-ROW 1: Q W R T Y P L
-ROW 2: [SHIFT] A E I O U [DELETE]
-ROW 3: S D F G H J K
-ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+7x5 R2:  
+ROW 1: Q W R T Y P L  
+ROW 2: [SHIFT] A E I O U [DELETE]  
+ROW 3: S D F G H J K  
+ROW 4: Z X C V B N M  
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
-7x5 R3:
-ROW 1: Q W R T Y P L
-ROW 2: S D F G H J K
-ROW 3: [SHIFT] A E I O U [DELETE]
-ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+7x5 R3:  
+ROW 1: Q W R T Y P L  
+ROW 2: S D F G H J K  
+ROW 3: [SHIFT] A E I O U [DELETE]  
+ROW 4: Z X C V B N M  
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
-7x5 R4:
-ROW 1: Q W R T Y P L
-ROW 2: S D F G H J K
-ROW 3: Z X C V B N M
-ROW 4: [SHIFT] A E I O U [DELETE]
-ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
+7x5 R4:  
+ROW 1: Q W R T Y P L  
+ROW 2: S D F G H J K  
+ROW 3: Z X C V B N M  
+ROW 4: [SHIFT] A E I O U [DELETE]  
+ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
 
 # **FULL CORPUS ANALYSIS (All 10,000 Words)**
@@ -1054,31 +1053,31 @@ QWERTY:      6.84 avg
 Apostrophe right of SPACEBAR.
 
 
-R3 OPT: 
-ROW 1: Q W R T Y P L
-ROW 2: S D F G H J K
-ROW 3: [SHIFT] I A E O U [DELETE]
-ROW 4: Z X C V B N M
-ROW 5: [SYMBOLS] , [SPACEBAR] ' . [ENTER]
+R3 OPT:  
+ROW 1: Q W R T Y P L  
+ROW 2: S D F G H J K  
+ROW 3: [SHIFT] I A E O U [DELETE]  
+ROW 4: Z X C V B N M  
+ROW 5: [SYMBOLS] , [SPACEBAR] ' . [ENTER]  
 
 
 R3-OPT with apostrophe
 
-ROW 1: Q W R T Y P L
-ROW 2: S D F G ' H K [DELETE]
-ROW 3: [SHIFT] I A E O U
-ROW 4: Z X C V B N M J
-ROW 5: [SYMBOLS] , [SPACEBAR] . [ENTER]
+ROW 1: Q W R T Y P L  
+ROW 2: S D F G ' H K [DELETE]  
+ROW 3: [SHIFT] I A E O U  
+ROW 4: Z X C V B N M J  
+ROW 5: [SYMBOLS] , [SPACEBAR] . [ENTER]  
 
 
 
 
-Clearflow Layout:
-[SHIFT] ! Q W C J ? [Delete]
-[Emoji] Y O H E V  U[delete]
-[spacebar] X R T A L B [spacebar]
-[spacebar] F S I N D Z [spacebar]
-[Symbols] , P M G K . [Enter]
+Clearflow Layout:  
+[SHIFT] ! Q W C J ? [Delete]    
+[Emoji] Y O H E V  U[delete]  
+[spacebar] X R T A L B [spacebar]  
+[spacebar] F S I N D Z [spacebar]  
+[Symbols] , P M G K . [Enter]  
 
 
 Designed with thumbs in mind:
@@ -1106,12 +1105,12 @@ ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
 
 Vowel vortex
 
-Row 1:  Q  W  P  L  [Del]
-Row 2:  R  T  Y  S  D
-Row 3:  F  G  H  J  K
-Row 4: [Sh] I  E  A  O  U  <-- Vowel Row (Row 4 is deep for clarity)
-Row 5:  X  C  V  B  N
-Row 6:  Z  M  [.] [,] [Space]
+Row 1:  Q  W  P  L  [Del]  
+Row 2:  R  T  Y  S  D  
+Row 3:  F  G  H  J  K  
+Row 4: [Sh] I  E  A  O  U  <-- Vowel Row (Row 4 is deep for clarity)  
+Row 5:  X  C  V  B  N  
+Row 6:  Z  M  [.] [,] [Space]  
 
 |**Metric**|**Row 3 Original (7-col)**|**ClearFlow (5x5)**|**Vowel-Vortex (5x5)**|
 |---|---|---|---|
@@ -1119,4 +1118,5 @@ Row 6:  Z  M  [.] [,] [Space]
 |**Projected Speed**|59.2 WPM|74.1 WPM|**78.9 WPM**|
 |**Clarity Score**|Extreme|Moderate/Low|**High**|
 |**WPM vs. QWERTY**|+48%|+85%|**+97% (Almost Double)**|
+
 
