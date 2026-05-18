@@ -33,8 +33,6 @@ ROW 3: Z X C V B N M
 ROW 4: [SHIFT] A E I O U [DELETE]  
 ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
-Note: this is not a finished design, the function keys are current place holders, the alphabet layout is the core detail. 
-
 The goal was to create a layout with significant higher word clarity when glide typing (Swype or swipe typing or gesture typing) than QWERTY layout yet retain familiarity with the QWERTY layout, so learning the new layout wouldn't be that difficult, and switching between the two layouts would be more natural. 
 
 I had copilot compare these against built in layouts in gboard, including Clearflow. Then I tested each vowel row for the optimal arrangement of vowels within each row. This resulted in the "R3-OPT" layout as the top performing layout. 
@@ -45,6 +43,8 @@ ROW 2: S D F G H J K
 ROW 3: [SHIFT] I A E O U [DELETE]  
 ROW 4: Z X C V B N M  
 ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
+
+Note: this is not a finished design, the function keys are current place holders, the alphabet layout is the core detail.
 
 Copilot then tested for slight consonant adjustments, focusing on word clarity and maintaining familiarity with QWERTY. the results had slight gains but not enough, IMO, to warrant the deviation away from the QWERTY familiarity. Further comparisons and analysis were made against other layouts and the 7x5 R3-OPT layout was a top performing layout in general, with the exception of the modified 7x5 R3-OPT layouts: Ultra and Ultra pro, copilot named them.
 
