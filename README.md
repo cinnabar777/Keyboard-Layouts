@@ -148,6 +148,34 @@ Note: I'm including this comparison so people can see the metrics between the Ul
 
 ---
 
+# Code
+
+## FUTO Keyboard
+
+```
+name: Vowel Vortex FUTO Simple
+description: Vowel Vortex layout for FUTO Keyboard, basic
+overrideWidths:
+  FunctionalKey: 0.2   # Sets $shift and $delete to exactly 0.2 width
+
+rows:
+  - letters: q w r t y p l
+  - letters: s d f g h j k
+  - letters: $shift i a e o u $delete
+  - letters: z x c v b n m
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
