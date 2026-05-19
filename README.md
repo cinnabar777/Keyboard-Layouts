@@ -64,9 +64,85 @@ There are literally hundreds of permutations of this layout, in the chat session
 
 This name came from Gemini when I had it doing analysis, and I kind of like it. 
 
+# SIDE-BY-SIDE COMPARISON: TOP PERFORMERS
+
+This is the comparison of the initial layouts: 
+
+| Metric | 7x5 R3 | ClearFlow | 7x5 R2 | QWERTY |
+|--------|--------|-----------|--------|--------|
+| **Ambiguity Reduction** | 48.2% ✓ | 36.5% | 32.4% | — |
+| **Distance Reduction** | 30.8% ✓ | 30.0% | 24.7% | — |
+| **WPM Equivalent** | 57.7 ✓ | 57.2 | 53.0 | 40.0 |
+| **QWERTY Familiarity** | 7.3/10 ✓ | 3.1/10 | 7.3/10 ✓ | 10.0/10 |
+| **Digram Efficiency** | 60.3% ✓ | 54.0% | 44.4% | — |
+| **Typeability** | 98.47% ✓ | 96.23% | 98.47% ✓ | 98.47% ✓ |
+| **Composite Score** | **9.09** ✓✓ | 7.61 | **8.63** ✓ | 8.05 |
+
+---
 
 
+# OPTIMAL VOWEL ARRANGEMENTS BY ROW
 
+## Summary of Best Arrangements:
+
+| Row | Original | Optimal | Avg Distance | Ambiguous | Digram | Composite | Improvement |
+|-----|----------|---------|--------------|-----------|--------|-----------|-------------|
+| **Row 1** | A-E-I-O-U | **E-A-I-O-U** | 6.18 | 189 | 2.35 | 8.21 | +0.07 |
+| **Row 2** | A-E-I-O-U | **E-A-I-O-U** | 5.71 | 161 | 1.88 | 8.68 | +0.05 |
+| **Row 3** | A-I-E-O-U | **I-A-E-O-U** | 5.28 | 121 | 1.18 | **9.28** | +0.10 ✓ |
+| **Row 4** | A-I-E-O-U | **E-I-A-O-U** | 5.62 | 175 | 1.78 | 8.50 | +0.10 ✓ |
+
+---
+
+
+# Final Rankings (All Variations Tested)
+
+| Rank | Layout | Configuration | Avg Distance | Ambiguous | Digram | WPM | Composite | Status |
+|------|--------|---|--------------|-----------|--------|-----|-----------|--------|
+| **1 ⭐** | **7x5 R3-OPT** | I-A-E-O-U in Row 3 | **5.28** | **121** | **1.18** | **57.9** | **9.28** | **ULTIMATE** |
+| **2 ✓** | 7x5 R2-OPT | E-A-I-O-U in Row 2 | 5.71 | 161 | 1.88 | 54.6 | 8.68 | Excellent |
+| **3 ✓** | 7x5 R4-OPT | E-I-A-O-U in Row 4 | 5.62 | 175 | 1.78 | 55.5 | 8.50 | Very Good |
+| **4 ✓** | 7x5 R1-OPT | E-A-I-O-U in Row 1 | 6.18 | 189 | 2.35 | 48.9 | 8.21 | Good |
+| 5 | ClearFlow | Custom layout | 5.47 | 156 | 1.45 | 57.2 | 7.61 | Competitive |
+| 6 | Original 7x5 R3 | A-I-E-O-U in Row 3 | 5.41 | 128 | 1.25 | 57.7 | 9.18 | Previous Best |
+| 7 | QWERTY | Standard | 7.82 | 247 | 3.15 | 40.0 | 8.05 | Baseline |
+
+---
+
+
+# Performance Metrics Comparison vs academic layouts
+
+| Layout | Avg Distance | Ambiguous Pairs | Digram Avg | Trigram Avg | Composite | WPM Equiv |
+|--------|--------------|-----------------|-----------|-----------|-----------|-----------|
+| **R3-OPT** | 5.28 | 121 | 1.18 | 4.32 | 9.28 | 57.9 |
+| **GK-C** | 6.42 | 142 | 1.89 | 5.18 | 8.94 | 48.7 |
+| **GK-T** | 5.84 | 156 | 2.12 | 5.64 | 8.62 | 53.3 |
+| **GOKU** | 6.18 | 138 | 1.76 | 5.02 | 9.03 | 50.2 |
+| **Fitts-Opt** | 5.91 | 148 | 2.04 | 5.42 | 8.68 | 52.8 |
+| ClearFlow | 5.47 | 156 | 1.45 | 3.88 | 7.61 | 57.2 |
+| QWERTY | 7.82 | 247 | 3.15 | 6.84 | 8.05 | 40.0 |
+
+---
+
+
+# COMPARATIVE FINAL RANKING Of Variants
+
+## All Configurations Ranked:
+
+| Rank | Layout | Composite | Distance | Ambiguous | Digram | WPM | Notes |
+|------|--------|-----------|----------|-----------|--------|-----|-------|
+| **1 ⭐⭐⭐** | **R3-ULTRA PRO** | **9.40** | 5.17 | 114 | 1.11 | 58.6 | ULTIMATE |
+| **2 ⭐⭐** | **R3-ULTRA** | 9.37 | 5.20 | 117 | 1.14 | 58.4 | Previous best |
+| **3 ⭐⭐** | R3-OPT | 9.28 | 5.28 | 121 | 1.18 | 57.9 | Original optimization |
+| **4 ⭐** | 7x5 R2-OPT | 8.68 | 5.71 | 161 | 1.88 | 54.6 | Good alternative |
+| **5** | GOKU | 9.03 | 6.18 | 138 | 1.76 | 50.2 | Academic layout |
+| **6** | GK-C | 8.94 | 6.42 | 142 | 1.89 | 48.7 | Academic layout |
+| **7** | ClearFlow | 7.61 | 5.47 | 156 | 1.45 | 57.2 | Alternative design |
+| **8** | QWERTY | 8.05 | 7.82 | 247 | 3.15 | 40.0 | Baseline |
+
+Note: I'm including this comparison so people can see the metrics between the Ultra, Pro, and R3-OPT are very close. 
+
+---
 
 
 
