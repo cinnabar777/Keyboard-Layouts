@@ -1,8 +1,8 @@
 # Vowel Vortex Keyboard Layouts
 
-Keyboard Layouts for Android Keyboards like FUTO Keyboard, HeliBoard, and FlorisBoard that allow custom layouts to be used. 
+Keyboard Layouts for Android Keyboards like [FUTO Keyboard](https://keyboard.futo.org/), [HeliBoard](https://github.com/HeliBorg/HeliBoard), and [FlorisBoard](https://github.com/florisboard/florisboard) that allow custom layouts to be used. 
 
-I worked with copilot to analyze and modify a simple Keyboard layout idea I had, after being frustrated attempting to learn clearflow, placing all vowels on their own row creating a 7x5 layout:
+I worked with copilot to analyze and modify a simple Keyboard layout idea I had, after being frustrated attempting to learn [clearflow](https://clearflowkeyboard.github.io/), placing all vowels on their own row creating a 7x5 layout for smartphones:
 
 7x5 R1:  
 ROW 1: [SHIFT] A E I O U [DELETE]  
@@ -33,6 +33,9 @@ ROW 3: Z X C V B N M
 ROW 4: [SHIFT] A E I O U [DELETE]  
 ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]  
 
+<img width="1080" height="951" alt="1000113280" src="https://github.com/user-attachments/assets/9dcc1153-141c-4cc4-bd86-041c9fc43b43" />
+
+
 The goal was to create a layout with significant higher word clarity when glide typing (Swype or swipe typing or gesture typing) than QWERTY layout yet retain familiarity with the QWERTY layout, so learning the new layout wouldn't be that difficult, and switching between the two layouts would be more natural. 
 
 I had copilot compare these against built in layouts in gboard, including Clearflow. Then I tested each vowel row for the optimal arrangement of vowels within each row. This resulted in the "R3-OPT" layout as the top performing layout. 
@@ -46,9 +49,9 @@ ROW 5: [SYMBOLS] , ' [SPACEBAR] ' . [ENTER]
 
 Note: this is not a finished design, the function keys are current place holders, the alphabet layout is the core detail.
 
-Copilot then tested for slight consonant adjustments, focusing on word clarity and maintaining familiarity with QWERTY. the results had slight gains but not enough, IMO, to warrant the deviation away from the QWERTY familiarity. Further comparisons and analysis were made against other layouts and the 7x5 R3-OPT layout was a top performing layout in general, with the exception of the modified 7x5 R3-OPT layouts: Ultra and Ultra pro, copilot named them.
+Copilot then tested for slight consonant adjustments, focusing on word clarity and maintaining familiarity with QWERTY. The results had slight gains but not enough, IMO, to warrant the deviation away from the QWERTY familiarity. Further comparisons and analysis were made against other layouts and the 7x5 R3-OPT layout was a top performing layout in general, with the exception of the modified 7x5 R3-OPT layouts: Ultra and Ultra pro (copilot named them).
 
-In some analysis clearflow layout outperformed 7x5 R3-OPT but when larger word lists were used and certain normalizations added to the testing 7x5 R3-OPT was consistently top. This wasn't to gimp clearflow but to standardize testing. 
+In some analysis clearflow layout outperformed 7x5 R3-OPT but when larger word lists were used and certain normalizations added to the testing 7x5 R3-OPT was consistently top. This wasn't to gimp clearflow but to standardize testing. This was a surprising result for me. I expected improvements over qwerty but expected to significantly under perform relative to ClearFlow. 
 
 The layout also tested well for two thumb typing therefore it seems to be a good alternative layout for swipe typing without sacrificing thumb typing or QWERTY familiarity. 
 
