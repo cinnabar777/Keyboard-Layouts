@@ -165,6 +165,12 @@ rows:
   - letters: z x c v b n m
 ```
 
+[Here is a complete YAML for FUTO keyboard](https://github.com/cinnabar777/Vowel-Vortex-Keyboard-Layouts/blob/main/FUTO%20YAML.md). 
+
+
+
+
+
 
 
 
