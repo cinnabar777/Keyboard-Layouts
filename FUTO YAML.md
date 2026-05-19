@@ -3,7 +3,7 @@ This is a loaded version of the layout for FUTO, easier to delete stuff than add
 I've hidden the hint for all keys to help focus on learning the new layout. 
 
 ```
-name: Vowel Vortex Final
+name: Vowel Vortex
 description: Vowel Vortex layout for FUTO Keyboard
 overrideWidths:
   Custom1: 0.14    # Consonants
