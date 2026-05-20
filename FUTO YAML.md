@@ -5,14 +5,14 @@ I've hidden the hint for all keys to help focus on learning the new layout.
 There is an apostrophe on each side, using the tiny vowel gap. Gesturing to that area works for contractions etc. 
 
 ```
-name: Vowel Vortex Final
-description: Vowel Vortex layout for FUTO Keyboard
+name: Vowel Vortex
+description: Vowel Vortex layout for FUTO Keyboard with Grow parameters
 overrideWidths:
   Custom1: 0.14  # not used
   Custom2: 0.11  # not used
-  Custom3: 0.01  # gap between vowels
-  Custom4: 0.11  # used Grow instead
-  FunctionalKey: 0.19   # Sets $shift and $delete to exactly 0.2 width
+  Custom3: 0.01  # gap between vowels / balance buffers
+  Custom4: 0.114 # not used
+  FunctionalKey: 0.19   # Sets $shift and $delete to exactly 0.19 width
 rows:
   - letters: [
       {type: base, spec: 'q', hint: " ", attributes: { width: Grow }, moreKeys: ["~", "\u0022", "?", "¿"]},
@@ -59,7 +59,7 @@ rows:
   - bottom: 
       - $symbols
       - {type: base, spec: "'", attributes: { width: Custom3 }}
-      - {type: base, spec: ",", moreKeys: ["!icon/action_clipboard_history|!code/action_clipboard_history", "!icon/action_text_edit|!code/action_text_edit", "!icon/action_select_all|!code/action_select_all", "!icon/numpad|!code/key_to_number_layout", "!icon/action_voice_input|!code/key_to_number_layout", "!icon/action_redo|!code/action_redo", "!icon/action_cut|!code/action_cut", "!icon/action_copy|!code/action_copy", "!icon/action_paste|!code/action_paste", "!icon/action_undo|!code/action_undo"]}
+      - {type: base, spec: ",", moreKeys: ["!icon/numpad|!code/key_to_number_layout", "!icon/action_voice_input|!code/action_voice_input", "!icon/action_text_edit|!code/action_text_edit", "!icon/action_select_all|!code/action_select_all", "!icon/action_clipboard_history|!code/action_clipboard_history", "!icon/action_redo|!code/action_redo", "!icon/action_cut|!code/action_cut", "!icon/action_copy|!code/action_copy", "!icon/action_paste|!code/action_paste", "!icon/action_undo|!code/action_undo"]}
       - $space
       - {type: base, spec: '.', moreKeys: ["\u0022", "?", "!", "!icon/numpad|!code/key_to_number_layout", ":", ";", "-", "—", "–", "/", "\\", "|", "#", "@", "&", "()", "[]", "{}", ">", "<", "$", "%|%", "*", "…", "°", "```", "~", "+", "=", "÷"]}
       - {type: base, spec: "'", attributes: { width: Custom3 }}
