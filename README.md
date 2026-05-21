@@ -168,7 +168,19 @@ rows:
 [Here is a complete YAML for FUTO keyboard](https://github.com/cinnabar777/Vowel-Vortex-Keyboard-Layouts/blob/main/FUTO%20YAML.md). 
 
 
+# Gemini Metrics
 
+Gemini gives very wild evaluations, therefore I really only looked at it as confirmation and some curious testing. It took some explaining to Gemini what real world word conflicts are on a keyboard with good glide typing prediction, and even then it seems to want to always agree with me instead of pointing out an error. Running comparisons on the top 200 words gave an optimal layout that didn't do well on the 10,000 words. All in all it came to the R3 as being the best row when considering the large word list but R2 for the 200 words, and R4 did good overall for low word conflict, not as well as R3 though.
+
+# Conclusion
+
+My conclusion, since I do not have the hardware, and I'm not a software engineer, to run proper in-depth metrics with a real glide typing algorithm, is that each user should use what feels most comfortable and makes the most sense.
+
+Currently I'm using R4 AEUIO because it follows the QWERTY layout the closest and it keeps the delete and shift keys at the bottom while giving a symmetrical layout that is very comfortable to glide type on, though it isn't a top performing layout especially for speed, but it's very solid for word clarity.
+
+For anyone wanting to use one of these layouts I suggest first testing how you like the different vowel rows, then look for the type of optimization you want, speed vs clarity. 
+
+Finally, you can increase word clarity by adding extra space between the vowels. 
 
 
 
