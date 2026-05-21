@@ -176,7 +176,7 @@ Gemini gives very wild evaluations, therefore I really only looked at it as conf
 
 My conclusion, since I do not have the hardware, and I'm not a software engineer, to run proper in-depth metrics with a real glide typing algorithm, is that each user should use what feels most comfortable and makes the most sense.
 
-Currently I'm using R4 AEUIO because it follows the QWERTY layout the closest and it keeps the delete and shift keys at the bottom while giving a symmetrical layout that is very comfortable to glide type on, though it isn't a top performing layout especially for speed, but it's very solid for word clarity.
+Currently I'm using R4 AEUIO because it follows the QWERTY layout the closest and it keeps the delete and shift keys at the bottom while giving a symmetrical layout that is very comfortable to glide type on, though it isn't a top performing layout especially for speed, but it's very solid for word clarity. I tested the R3-OPT for a few days and liked it, took a little getting used to the delete key, but it clearly has speed advantages. 
 
 For anyone wanting to use one of these layouts I suggest first testing how you like the different vowel rows, then look for the type of optimization you want, speed vs clarity. 
 
