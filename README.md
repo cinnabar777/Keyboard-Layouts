@@ -4,7 +4,7 @@ Keyboard Layouts for Android Keyboards like [FUTO Keyboard](https://keyboard.fut
 
 ## THE IMPETUS
 
-The [clearflow](https://clearflowkeyboard.github.io/) layout was being added to FUTO keyboard, hadn't really noticed it before, and ever since the demise of Swype I've been very disappointed with glide typing on other keyboards. I made a custom layout of ClearFlow in FUTO keyboard to test it. It's a wild departure from QWERTY! Therefore it was going to take some learning, however what started bothering me the most about it wasn't the alphabetical layout, it was the function keys on the sides and the size of the keys:
+The [clearflow](https://clearflowkeyboard.github.io/) layout was being added to FUTO keyboard, hadn't really noticed it before, and ever since the demise of Swype I've been very disappointed with glide typing on other keyboards. It's a wild departure from QWERTY! Therefore it was going to take some learning, however what started bothering me the most about it wasn't the alphabetical layout, it was the function keys on the sides and the size of the keys:
 
 <img width="1080" height="1057" alt="1000113427" src="https://github.com/user-attachments/assets/0be80a46-b560-4ecd-99f8-7e2fb6116a65" />
 
