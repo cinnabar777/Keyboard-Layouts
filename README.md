@@ -44,7 +44,7 @@ Throughout my testing layouts with Gemini and Copilot they both often wanted to 
 
 From the results you can see there isn't a significant difference, and there really is no way I could gesture type faster than this. Pointing this out to Gemini it pointed out Fitts’s Law, vector changes, etc, all confirming that you aren't going to type faster because of a different layout giving you shorter gesture length for words, yet the AIs pushed exactly that saying you would get faster speeds, until I pointed out that real word tests disagreed. 
 
-The reality is, you are only going to type as far as you are going to type on any layout, it's your natural speed that defines how fast you can type on any layout. The "theoretical" speed created by mathmatical models usually don't take into account that you can move through longer distances faster, and often short tight gestures are slower to do. 
+The reality is, you are only going to type as fast as you are going to type on any layout, it's your natural speed that defines how fast you can type on any layout, barring some wild dual system like ninetype. The "theoretical" speed created by mathmatical models usually don't take into account that you can move through longer distances faster, and often short tight gestures are slower. 
 
 So if you aren't going to magically type faster then what's the point of using a different layout? Increased word clarity which reduces typing errors. That really is the main reason to use a different layout. ClearFlow does this very well, but at a very high learning curve.
 
@@ -190,7 +190,7 @@ This is the comparison of the initial layouts:
 | **7** | ClearFlow | 7.61 | 5.47 | 156 | 1.45 | 57.2 | Alternative design |
 | **8** | QWERTY | 8.05 | 7.82 | 247 | 3.15 | 40.0 | Baseline |
 
-Note: I'm including this comparison so people can see the metrics between the Ultra, Pro, and R3-OPT are very close.
+Note: I'm including these comparisons so people can see the metrics between the Ultra, Pro, and R3-OPT are very close.
 
 ### GEMINI OPTIMIZATION
 
@@ -213,11 +213,11 @@ I really went in circles with Gemini, I am fairly certain Gemini is programmed t
 
 ### WORD CONFLICTS
 
-I used different layout versions based on Copilot and Gemini and went through gesture typing the top 100 words, intentionally being off by one letter when dealing with the vowel row. Gemini layouts did usually get lower errors, around 55 to 60, while the original R4 "AEUIO" got 65, and Copilot's top layout got 66. This is out of ~300 gestures, and doing the test on Gboard I stopped counting at 130 and wasn't that close to finishing. I figure about a 2 to 3 times decrease in "sloppy gesture" errors when typing the top 100 words, regardless of which Vowel Vortex layout you use, however, it's much easier to be accurate on the larger keys. 
+I used different layout versions based on Copilot and Gemini and went through gesture typing the top 100 words, intentionally being off by one letter when dealing with the vowel row. Gemini layouts did usually get lower errors, around 55 to 60, while the original R4 "AEUIO" got 65, and Copilot's top layout got 66. This is out of ~300 gestures, and doing the test on Gboard QWERTY I stopped counting at 130 and wasn't that close to finishing. I figure about a 2 to 3 times decrease in "sloppy gesture" errors when typing the top 100 words, regardless of which Vowel Vortex layout you use, however, it's much easier to be accurate on the larger keys. 
 
 ### MAXIMUM WORD CLARITY
 
-I wasn't happy with the potential errors, yes I could gesture the top 100 words over ten times each and only have a handful of errors, amazing, but the potential for error bugged me. Much analysis with Gemini proved fruitless. I used custom sized gaps between the vowels which helped significantly but introduced another problem, if the user started the gesture off the vowel just enough to be on the gap then the algorithm didn't get the start point correct, and that's a big problem.
+I wasn't happy with the potential errors, yes I could gesture the top 100 words over ten times each and only have a handful of errors (<1% error), amazing, but the potential for error bugged me. Much analysis with Gemini proved fruitless. I used custom sized gaps between the vowels which helped significantly but introduced another problem, if the user started the gesture off the vowel just enough to be on the gap then the algorithm didn't get the start point correct, and that's a big problem.
 
 I came up with two ways to maximize word clarity and minimize potential errors when it came to the vowel row:
 
@@ -229,12 +229,17 @@ This gave me, what I call, the "Vowel Vortex Clarity" layout:
 
 <img width="1080" height="2400" alt="1000113410" src="https://github.com/user-attachments/assets/49fd041b-92c9-401f-a80c-fc6edc8c1445" />
 
+It looks ugly, malformed, and insane but performs amazingly well! You really have to try to get words wrong when using this layout. The main errors come from consonants, especially those close consonants on the bottom row, like N and M that result in 'then' vs 'them' errors. 
+
+#### SMALLER DICTIONARY
+
+If the keyboard you are using allows for custom dictionaries, using a significantly smaller dictionary has dramatic effects on glide typing word clarity! There's a reason Swype used a dictionary that was around 50,000 words and not the 150,000+ word dictionaries many keyboards are using today. 
 
 ### MAXIMUM FAMILIARITY
 
-The above image compares the 'clarity' layout to QWERTY, look at how you would make the gesture, this layout maximizes familiarity, from the start you aren't hunting for letters, minimal learning curve.
+The above image compares the 'clarity' layout to QWERTY, look at how you would make the gestures, this layout maximizes familiarity, from the start you aren't hunting for letters, minimal learning curve.
 
-Once I realized I wasn't getting a massive increase in typing speed, and the best work around for potential word errors and conflicts was either using gaps, functional non-letter keys, or increasing the vowel size things fell into place. While the Copilot layout, R3-OPT, was actually very nice for gesture typing it introduced too much deviation from QWERTY thus significant learning curve. For some people they might want to use an optimized vowel row, however, for me sticking with the QWERTY vowel order seems best over all, then use the tricks, if you need or want to maximize word clarity.
+Once I realized I wasn't getting a massive increase in typing speed, and the best work around for potential word errors and conflicts was either using gaps, functional non-letter keys, or increasing the vowel size things fell into place. While the Copilot layout, R3-OPT, is actually very nice for gesture typing it introduced too much deviation from QWERTY thus significantly higher learning curve. For some people they might want to use an optimized vowel row, however, for me sticking with the QWERTY vowel order seems best over all, then use the tricks, if you need or want to maximize word clarity.
 
 My personal preference is the simple big key version, no tricks added:
 
