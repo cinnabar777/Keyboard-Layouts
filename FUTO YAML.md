@@ -5,8 +5,8 @@ I've hidden the hint for all keys to help focus on learning the new layout.
 There is an apostrophe on each side, using the tiny vowel gap. Gesturing to that area works for contractions etc. 
 
 ```
-name: Vowel Vortex
-description: Vowel Vortex layout for FUTO Keyboard
+name: Vowel Vortex R3-IAEOU
+description: Vowel Vortex R3-OPT (IAEOU) layout for FUTO Keyboard
 overrideWidths:
   Custom1: 0.14    # Consonants
   Custom2: 0.11    # not used
