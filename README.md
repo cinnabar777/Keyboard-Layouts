@@ -15,7 +15,7 @@ While this makes the keyboard very symmetrical it also keeps the key sizes very 
 
 Throughout my testing layouts with Gemini and Copilot they both often wanted to give preference to layouts that minimized the gesture length of a word, and those layouts were given a higher theoretical typing speed. I finally decided to put this to the test via a very simplified typing test. I used ClearFlow, QWERTY, and a couple of my layouts, chose three words: that, there, and this. I chose those words because they had good tight gestures on ClearFlow and long gestures on my layouts. I gesture typed each word for one minute on each layout as fast as I could — this would give me a theoretical maximum I could type on any of these layouts, no way am I going to type faster than this.
 
-### SPEED TESTS RESULTS
+### SPEED TEST RESULTS
 
 **ClearFlow:**  
 
