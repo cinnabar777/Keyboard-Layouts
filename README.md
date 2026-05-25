@@ -194,7 +194,76 @@ Note: I'm including these comparisons so people can see the metrics between the 
 
 ### GEMINI OPTIMIZATION
 
-I really went in circles with Gemini, I am fairly certain Gemini is programmed to agree with you and tell you what it thinks you want to hear more than, well, anything else. I had to teach it how to analyze word conflict based on gestures instead of word ambiguity based on shared letters, and it would keep falling back into old patterns, nonetheless, after much conversation, testing, and annoyances Gemini's top layouts based on increased word clarity are:
+I really went in circles with Gemini, I am fairly certain Gemini is programmed to agree with you and tell you what it thinks you want to hear more than, well, anything else. I had to teach it how to analyze word conflict based on gestures instead of word ambiguity based on shared letters, and it would keep falling back into old patterns, nonetheless, after much conversation, testing, and annoyances Gemini's top layouts based on increased word clarity:
+
+#### Vowel Vortex Keyboard Layout Optimization Report
+
+This comprehensive study analyzes all four structural forms of your 7x5 custom keyboard design variants against a 200-word dataset using a high-fidelity physical gesture trajectory engine.
+
+---
+
+##### 1. Executive Summary & Core Discovery
+* **The Winner:** **Layout 7x5 R2** utilizing the **`o u a e i`** vowel progression sequence is the mathematically optimal choice.
+* **Why it Wins:** Putting vowels into Row 2 builds a central "equator" between the standard upper and home row QWERTY consonants. This design drops user effort drastically, accelerating typing speed (WPM potential) to **133.5%** compared to QWERTY, while recording the lowest conflict floor across all configurations.
+* **The `O U A E I` Pattern Advantage:** Shifting `O` and `U` to the far left isolates them completely from right-hand heavy consonant combinations (`L`, `K`, `M`, `N`), stretching out long, geometrically clear vector traces that gesture digitizers can resolve seamlessly.
+
+---
+
+##### 2. Complete Layout Matrix (Top 10 Performing Variants)
+
+###### Layout 7x5 R1 (Vowels on Row 1)
+*Vowels placed on the top row force long vertical return reaches from bottom row consonants, increasing travel effort.*
+1. `o u e i a` | Conflicts: 11 | Speed Potential: 122.4%
+2. `o a e i u` | Conflicts: 11 | Speed Potential: 119.4%
+3. `a o u i e` | Conflicts: 11 | Speed Potential: 115.2%
+4. `u i e a o` | Conflicts: 12 | Speed Potential: 119.9%
+5. `o a e u i` | Conflicts: 12 | Speed Potential: 119.6%
+6. `i u o a e` | Conflicts: 12 | Speed Potential: 119.4%
+7. `i e a u o` | Conflicts: 12 | Speed Potential: 119.3%
+8. `i a e u o` | Conflicts: 12 | Speed Potential: 119.2%
+9. `e a o u i` | Conflicts: 12 | Speed Potential: 118.9%
+10. `a e i u o` | Conflicts: 12 | Speed Potential: 117.8%
+
+###### Layout 7x5 R2 (Vowels on Row 2) - **TOP PERFORMING CATEGORY**
+*The absolute sweet spot for physical swipe ergonomics. Minimizes multi-row skipping.*
+1. `o u a e i` | Conflicts: 9  | Speed Potential: 133.5%
+2. `i e a u o` | Conflicts: 9  | Speed Potential: 130.1%
+3. `a e i u o` | Conflicts: 9  | Speed Potential: 128.3%
+4. `u i e a o` | Conflicts: 10 | Speed Potential: 131.6%
+5. `u e i a o` | Conflicts: 10 | Speed Potential: 130.4%
+6. `i u e a o` | Conflicts: 10 | Speed Potential: 130.3%
+7. `i a e u o` | Conflicts: 10 | Speed Potential: 130.1%
+8. `e u i a o` | Conflicts: 10 | Speed Potential: 125.4%
+9. `e i u a o` | Conflicts: 10 | Speed Potential: 124.9%
+10. `o u e a i` | Conflicts: 11 | Speed Potential: 135.6% (Fastest Travel Speed)
+
+###### Layout 7x5 R3 (Vowels on Row 3)
+1. `o u a e i` | Conflicts: 11 | Speed Potential: 133.1%
+2. `o u i e a` | Conflicts: 13 | Speed Potential: 132.8%
+3. `a e i u o` | Conflicts: 13 | Speed Potential: 127.7%
+4. `i e a u o` | Conflicts: 14 | Speed Potential: 129.2%
+5. `o a e u i` | Conflicts: 15 | Speed Potential: 129.9%
+6. `a i e u o` | Conflicts: 15 | Speed Potential: 128.1%
+7. `o u e a i` | Conflicts: 16 | Speed Potential: 134.7%
+8. `i e a o u` | Conflicts: 16 | Speed Potential: 131.8%
+9. `i u o a e` | Conflicts: 16 | Speed Potential: 130.5%
+10. `o a e i u` | Conflicts: 16 | Speed Potential: 129.6%
+
+###### Layout 7x5 R4 (Vowels on Row 4)
+*Forces constant downward crowding, degrading layout fluidness.*
+1. `i e a o u` | Conflicts: 10 | Speed Potential: 116.4%
+2. `o u a e i` | Conflicts: 11 | Speed Potential: 117.4%
+3. `u o a e i` | Conflicts: 12 | Speed Potential: 119.9%
+4. `o u i e a` | Conflicts: 12 | Speed Potential: 117.2%
+5. `a o u e i` | Conflicts: 12 | Speed Potential: 114.5%
+6. `e i a o u` | Conflicts: 12 | Speed Potential: 113.5%
+7. `i u o a e` | Conflicts: 13 | Speed Potential: 115.8%
+8. `o u i a e` | Conflicts: 13 | Speed Potential: 115.1%
+9. `o a e u i` | Conflicts: 13 | Speed Potential: 114.9%
+10. `o a e i u` | Conflicts: 13 | Speed Potential: 114.5%
+
+Here is a R4 analysis based on the top 100 and 1,000 words: 
+
 
 | #    | Vowels    | **100** | **1k** |
 | ------ | ----------- | ------- | ------ |
@@ -209,7 +278,8 @@ I really went in circles with Gemini, I am fairly certain Gemini is programmed t
 | **9**  | `e o u a i` | **5**   | **15** |
 | **10** | `a i e o u` | **5**   | **17** |
 
- The table lists the number of word conflicts that layout would have, but it only tested against the other words in that list, Gemini just didn't want to test against a dictionary, therefore, these results aren't really that useful, but I did do some real world testing.
+
+The table lists the number of word conflicts that layout would have, but it only tested against the other words in that list, Gemini just didn't want to test against a dictionary, therefore, these results aren't really that useful, but I did do some real world testing.
 
 ### WORD CONFLICTS
 
