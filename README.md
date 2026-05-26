@@ -353,6 +353,22 @@ Regardless of the selected row, the mathematical optimization routine forces spe
 - **The `O` Anchor (Column 2):** Aligns vertically with `R`, `F`, and `C`[cite: 1]. This transforms **"of"** (4.16% of total usage) into a perfect, brief vertical swipe (`O` -> `F`) and positions it ideally next to `T` for the word **"to"** (2.60%)[cite: 1].
 - **The `E` Anchor (Column 4):** Aligns vertically with `Y`, `H`, and `B`[cite: 1]. This positioning optimizes the absolute highest frequency word **"the"** (7.14%) by matching the `T` -> `H` path perfectly to a tight, natural loop down to `E` with zero unnecessary lateral drifting[cite: 1].
 
+##### GEMINI 1k UNIVERSAL
+
+Based on the analysis of your expanded list of the top 1,000 words across all four layout variants (R1, R2, R3, and R4), here are the top two "universal" vowel orders that yield the lowest combined straight-line (Euclidean) physical travel distance.
+
+1 Universal Vowel Order: U O I E A
+
+This remains the undisputed champion. By locking O under the R/F/C column and E under the Y/H/B column, while keeping A on the right side of the keyboard, it provides the lowest possible travel distance penalty regardless of which row you place the vowels on.
+
+2 Universal Vowel Order: U O A E I
+
+This is the runner-up. It keeps the exact same anchors for U, O, and E to maintain ultra-efficient paths for high-frequency words like "of", "to", and "the". However, it swaps the positions of A and I.
+
+The Layout:
+
+[SHIFT] U O A E I [DELETE] (Note: The U O A E I order forces the finger to travel slightly further for words ending in "I" or starting with "A" when placed on the bottom rows, which is why it comes in second to U O I E A.)
+
 
 ### WORD CONFLICTS
 
