@@ -293,8 +293,6 @@ This document provides the mathematically optimized vowel arrangements for four 
 
 If your glide typing engine relies on direct diagonal path tracking (the literal shortest straight line from key center to key center), these configurations offer the lowest physical distance.
 
-###### Layout 7x5 R1 (Row 1 Vowels)
-* **Optimal Vowel Order:** `I O A E U`
 * **Layout Matrix:**
 ```text
   ROW 1: [SHIFT]  I  O  A  E  U [DELETE]
