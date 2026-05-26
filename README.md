@@ -369,6 +369,11 @@ The Layout:
 
 [SHIFT] U O A E I [DELETE] (Note: The U O A E I order forces the finger to travel slightly further for words ending in "I" or starting with "A" when placed on the bottom rows, which is why it comes in second to U O I E A.)
 
+Note: Copilot rarely has U anywhere other than the far right in its top performers, and Gemini's #2 is generally a top performer for Copilot. I asked Gemini to compare how #2 faired against the universal winner:
+
+> I O A E U is still an elite layout (top 10 out of 120 possible combinations is roughly the 92nd percentile). If you strongly prefer I on the left and U on the right for mental/alphabetical mapping, you can use it universally. You are only sacrificing about 1.5% in raw physical movement efficiency compared to the mathematically perfect U O I E A.
+
+Realize that 1.5% is a fraction of a key, like one tenth.
 
 ### WORD CONFLICTS
 
