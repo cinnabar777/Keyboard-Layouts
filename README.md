@@ -281,6 +281,63 @@ Here is a R4 analysis based on the top 100 and 1,000 words:
 
 The table lists the number of word conflicts that layout would have, but it only tested against the other words in that list, Gemini just didn't want to test against a dictionary, therefore, these results aren't really that useful, but I did do some real world testing.
 
+Here is another Gemini optimization done with the top 50 words and their percentage used. 
+
+#### Optimal Vowel Layouts for Glide Typing
+
+This document provides the mathematically optimized vowel arrangements for four specific 7x5 keyboard layouts. Optimization is determined by minimizing the total weighted path distance traveled across a provided dataset of high-frequency English words and their usage percentages.
+
+---
+
+##### 1. Summary of Optimal Layouts (Euclidean / Straight-Line)
+
+If your glide typing engine relies on direct diagonal path tracking (the literal shortest straight line from key center to key center), these configurations offer the lowest physical distance.
+
+###### Layout 7x5 R1 (Row 1 Vowels)
+* **Optimal Vowel Order:** `I O A E U`
+* **Layout Matrix:**
+```text
+  ROW 1: [SHIFT]  I  O  A  E  U [DELETE]
+  ROW 2:   Q   W   R  T  Y  P  L
+  ROW 3:   S   D   F  G  H  J  K
+  ROW 4:   Z   X   C  V  B  N  M
+  
+ROW 1:   Q   W   R  T  Y  P  L
+  ROW 2: [SHIFT]  I  O  A  E  U [DELETE]
+  ROW 3:   S   D   F  G  H  J  K
+  ROW 4:   Z   X   C  V  B  N  M
+  
+  ROW 1:   Q   W   R  T  Y  P  L
+  ROW 2:   S   D   F  G  H  J  K
+  ROW 3: [SHIFT]  U  O  I  E  A [DELETE]
+  ROW 4:   Z   X   C  V  B  N  M
+  
+  ROW 1:   Q   W   R  T  Y  P  L
+  ROW 2:   S   D   F  G  H  J  K
+  ROW 3:   Z   X   C  V  B  N  M
+  ROW 4: [SHIFT]  U  O  I  E  A [DELETE]
+```
+
+
+
+##### 2. Universal Alternative: The Manhattan Winner
+
+When calculating physical travel distance using **Manhattan Distance** (where movement is constrained to strictly vertical and horizontal grid increments, mirroring clean thumb/finger swipes that do not slip diagonally), a single uniform arrangement dominates:
+
+- **Universal Order:** `U O I E A`
+    
+
+If you prefer visual symmetry or consistency across row changes, using `U O I E A` on Row 1 or Row 2 instead of `I O A E U` incurs a negligible efficiency loss of **under 1.1%** in straight-line pathing, making it an excellent universal choice.
+
+
+##### 3. Mathematical Insights & Anchors
+
+Regardless of the selected row, the mathematical optimization routine forces specific vowel placements to optimize high-frequency words[cite: 1]:
+
+- **The `O` Anchor (Column 2):** Aligns vertically with `R`, `F`, and `C`[cite: 1]. This transforms **"of"** (4.16% of total usage) into a perfect, brief vertical swipe (`O` -> `F`) and positions it ideally next to `T` for the word **"to"** (2.60%)[cite: 1].
+- **The `E` Anchor (Column 4):** Aligns vertically with `Y`, `H`, and `B`[cite: 1]. This positioning optimizes the absolute highest frequency word **"the"** (7.14%) by matching the `T` -> `H` path perfectly to a tight, natural loop down to `E` with zero unnecessary lateral drifting[cite: 1].
+
+
 ### WORD CONFLICTS
 
 I used different layout versions based on Copilot and Gemini and went through gesture typing the top 100 words, intentionally being off by one letter when dealing with the vowel row. Gemini layouts did usually get lower errors, around 55 to 60, while the original R4 "AEUIO" got 65, and Copilot's top layout got 66. This is out of ~300 gestures, and doing the test on Gboard QWERTY I stopped counting at 130 and wasn't that close to finishing. I figure about a 2 to 3 times decrease in "sloppy gesture" errors when typing the top 100 words, regardless of which Vowel Vortex layout you use, however, it's much easier to be accurate on the larger keys. 
