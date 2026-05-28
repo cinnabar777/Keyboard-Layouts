@@ -192,6 +192,21 @@ This is the comparison of the initial layouts:
 
 Note: I'm including these comparisons so people can see the metrics between the Ultra, Pro, and R3-OPT are very close.
 
+#### COPILOT UNIVERSAL LAYOUT
+
+In a separate conversation, outside of GitHub, I asked Copilot to find the best "universal" vowel order for all rows, it quickly gave me "A E I O U". I laughed because that was what I started with. Its reasoning was simply that, that is the way the English language flows. It also pointed out that glide algorithms key in on vowels thus separating them to a single row, according to Copilot, was a good thing. It argued that grouping vowels is exactly what glide typing algorithms do with QWERTY, A-E-UIO, and when grouping the vowels on one row, it claims, gives the algorithms clear vowel signals and that's what they run on, therefore, this particular order maintains the natural English vowel groupings within the all vowel row: A+E, I+O, O+U, etc. And it gives better clarity and flow, according to Copilot. 
+
+Though in reality you need to be accurate on the vowel row as many words are only one vowel off: then, than, thin.
+
+So what was the best row to use it on? Row 4! Without a doubt. Copilot claims this gives better ergonomics, better flow, and higher word clarity for a "universal" vowel row layout.
+
+I might be agreeing with Copilot here. you can squeeze some distance out by rearranging the vowels and using them on row 2 or 3, but for some reason row 4 starts to feel more natural, though you are fighting muscle memory at first.
+
+Copilot also tore apart Gemini's top universal layout, it didn't like it for flow at all. 
+
+Using this layout on row 4 does make the glide typing "flow", longer sweeping gestures diving in and out of row four, for some those longer gestures are bad.
+
+
 ### GEMINI OPTIMIZATION
 
 I really went in circles with Gemini, I am fairly certain Gemini is programmed to agree with you and tell you what it thinks you want to hear more than, well, anything else. I had to teach it how to analyze word conflict based on gestures instead of word ambiguity based on shared letters, and it would keep falling back into old patterns, nonetheless, after much conversation, testing, and annoyances Gemini's top layouts based on increased word clarity:
