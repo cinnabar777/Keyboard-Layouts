@@ -457,6 +457,32 @@ rows:
 
 My conclusion, since I do not have the hardware, and I'm not a software engineer, to run proper in-depth metrics with a real glide typing algorithm, is that each user should use what feels most comfortable and makes the most sense.
 
+Staying with the QWERTY order A E U I O on row 2 has, without a doubt, the highest muscle memory association with using glide typing on the normal QWERTY layout. 
+
+Row 4 A E I O U gives a nice longer gesturing layout that has good flowing gestures. Moving it to row 2 would retain a great deal of muscle memory.
+
+Then there are the optimized versions that give tight gestures especially for the most frequently used words.
+
 For anyone wanting to use one of these layouts I suggest first testing how you like the different vowel rows, then look for the type of optimization you want, distance vs clarity vs familiarity. You can even ask Copilot, or Gemini if you trust it, to optimize a Vowel row via your own personal word usage. 
 
 All in all I am happy with the Vowel Vortex layouts, they offer increased word clarity, more comfortable typing on mobile (bigger keys), retain high familiarity with QWERTY, and are flexible, they can be customized to every person's preferences. 
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
